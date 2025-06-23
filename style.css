@@ -9,7 +9,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background: linear-gradient( 190deg, #ff6ec4, #7873f5, #48c6ef, rgb(132, 30, 228));
   background-size: 600% 100%;
@@ -33,7 +33,7 @@ h1{
 #box{
   border-radius: 10px 10px 10px 10px;
   background-color: white;
-  padding: 60px;
+  padding: 40px;
   box-shadow:  inset 3px 3px 100px rgba(245, 159, 159, 0.5);
 }
 .form-check-label{
@@ -41,7 +41,7 @@ h1{
 }
 @media screen and (max-width:28em){
   #box{
-    width: 300px;
+    width: 340px;
     padding: 60px 20px 60px 20px;
   }
   h1{
